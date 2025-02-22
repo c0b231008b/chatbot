@@ -1,0 +1,7 @@
+[credential "https://huggingface.co"]
+	provider = generic
+[user]
+	name = tamuratakuto
+	email = c0b231008b@edu.teu.ac.jp
+[credential]
+	helper = "!f() { /root/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/node /tmp/vscode-remote-containers-61072f17-568e-4b3a-be93-0be5c2375ba1.js git-credential-helper $*; }; f"
