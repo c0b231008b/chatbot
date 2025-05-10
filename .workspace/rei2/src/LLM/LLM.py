@@ -2,13 +2,14 @@ from openai import OpenAI
 import base64
 from pathlib import Path
 
+
 class LLM():
     """
     Open AIに対して、APIコールを行う
     """
     def __init__(self, api_key):
         self.api_key =  api_key
-        
+ 
     def build_prompt(self, prompt_user: str, prompt_system: str =None, image_encoded_list: list=None, image_description_list: list=None):
         """
         Input:
