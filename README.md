@@ -6,7 +6,7 @@
 python .workspace/rei/chat.py
 ```
 
-### OPENAI APIを使う場合
+### APIを使う場合
 ```bash
 python .workspace/rei2/src/test/run_rei.py
 ```
