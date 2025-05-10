@@ -1,3 +1,5 @@
 .workspace/rei2/src/config/config.yaml
 .flake8
 .gitconfig
+__pycache__/
+.venv/
